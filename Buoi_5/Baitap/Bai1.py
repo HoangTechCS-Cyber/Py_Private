@@ -17,3 +17,5 @@ string_ = tuple(s for s in b if len(s) >= 5)
 print("cac phan tu trong tuple B co do dai lon hon bang 5: ",string_)
 c = tuple(zip(a, b))
 print(c)
+
+
