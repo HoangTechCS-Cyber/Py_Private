@@ -20,4 +20,5 @@ class doctor:
         self.cyan = specialist
     def describe(self):
         print("Name:", self.name,"- Namsinh:", self.yob, "- specialist:", self.cyan)
-        
+
+# Ward
