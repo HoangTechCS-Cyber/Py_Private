@@ -14,11 +14,12 @@ class teacher:
         print("Name:", self.name,"- Namsinh:", self.yob, "- subject:", self.subject)
 
 class doctor:
-    def __init__(self, name: str, yob: int, specialist: str):
+    def __init__(self, name: str, yob: int, specialist: str) :
         self.name = name
         self.yob  = yob
         self.cyan = specialist
     def describe(self):
         print("Name:", self.name,"- Namsinh:", self.yob, "- specialist:", self.cyan)
 
-# Ward
+        
+        
