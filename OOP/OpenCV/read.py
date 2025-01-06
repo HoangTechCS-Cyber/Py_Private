@@ -1,7 +1,10 @@
 import cv2 as cv
-import numpy as np
-
-image = cv.imread('D:\HIT\Chuyentin.jpg')
-cv.imshow(image)
-
+img = cv.imread('D:\Py_Private\OOP\OpenCV\TFT.png')
+# anh goc
+gray_img = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
+#cv.imshow("TFT", img)
+#cv.imshow("gray", gray_img)
+# Scaling
 cv.waitKey(0)
+cv.imwrite('D:\Py_Private\OOP\OpenCV\TFT.png',gray_img)
+#
